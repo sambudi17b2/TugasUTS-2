@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.budipc.dokter.MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/rm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="0dp"
+        android:text="   RS. TI.17.B2"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/daff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Pendaftaran Online"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/lay" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Layanan" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/dok" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Jadwal Dokter" />
+
+</LinearLayout>
